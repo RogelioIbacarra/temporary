@@ -1,0 +1,11 @@
+insert new student:
+    insert into student_profile.student(id_number, firstname, lastname, birthdate, address, year_level, course, middlename) value ("2", "Jose Paolo", "Paredes", "1999-09-07", "CDOC", 3, "BSCS", "Perez");
+
+view by course:
+    SELECT course_program.course_name FROM student_profile.student inner join course_program on student.course = course_program.course_code where id_number="200320208";
+
+view by course and year_level:
+    select * from student_profile.student inner join course_program on student.course = course_program.code where year_level="3" and course="BSCS";
+
+view by college/school:
+    select * from student_profile.student inner join course_program on student.course = course_program.code where college="SBM";
