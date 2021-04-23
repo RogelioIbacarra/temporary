@@ -1,0 +1,92 @@
+
+.container{
+    margin-top: 5px;
+    padding:2rem;
+    border: 3px solid #063970;
+    
+    align-items: center;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   }
+.logo{
+    margin-top: 10px;
+    max-width: 1000px;
+    margin-left: 3in;
+}
+.card{
+    border: 0px;
+    text-transform: capitalize;
+    
+    font-size: 20px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .9375rem;
+    line-height: 1.5;
+    border-radius: 0;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #283971;
+    border-color: #283971;
+}
+.nav-container{
+    
+    margin-top: 5px;
+    padding:2rem;
+    align-items: center;
+    max-width: 400px;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 25px;
+}
+   .container-table{
+    margin-left: 20px;
+    max-width: 1800px;
+    border: 1px solid #a19158;
+    color: #063970;
+   }
+.btn-group{
+    margin-top: 8px;
+    margin-left: 5.5in;
+    
+}
+.btn-outline-primary{
+    background-color: #ffffff;
+    border: 1px solid #063970;
+    color: #063970;
+    
+}
+.container2{
+    margin-left: 5px;
+    margin-top: 1px;
+    margin-bottom: 1in;
+    padding:1rem;
+    border: 2px solid #063970;
+    
+    align-items: center;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   }
